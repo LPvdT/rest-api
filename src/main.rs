@@ -1,6 +1,7 @@
 use actix_web::{get, web, App, HttpResponse, HttpServer};
 use serde::{Deserialize, Serialize};
 use std::sync::Mutex;
+mod todolist;
 
 #[allow(dead_code)]
 pub(self) struct AppState {
