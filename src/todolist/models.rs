@@ -1,12 +1,12 @@
 use serde::Deserialize;
 
 #[derive(Debug, Deserialize, Clone)]
-pub struct CreateEntryData {
-    pub title: String,
-    pub date: i64,
+pub(super) struct CreateEntryData {
+    pub(crate) title: String,
+    pub(crate) date: i64,
 }
 
 #[derive(Debug, Deserialize, Clone)]
-pub struct UpdateEntryData {
-    pub title: String,
+pub(super) struct UpdateEntryData {
+    pub(crate) title: String,
 }
