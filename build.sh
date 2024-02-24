@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+
+echo "Building release: x86_64-unknown-linux-gnu"
+cargo build --release
+
+echo "Building release: x86_64-pc-windows-gnu"
+cargo build --release --target=x86_64-pc-windows-gnu
