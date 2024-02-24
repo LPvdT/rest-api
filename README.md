@@ -2,6 +2,11 @@
 
 A very simple REST API written in Rust, powered by the `actix-web` crate.
 
+## To do
+
++ [ ] Add doc comments.
++ [ ] Build documentation with `cargo doc`.
+
 ## Compiling
 
 To compile the application for the current OS/architecture (*WSL2 Ubuntu Linux* for me):
